@@ -1,12 +1,16 @@
 import java.util.Scanner;
 
 public class SimpleMethod2 {
-    // Put your method code here, takes 1 integer, squares it, returns the integer result of the square.
+    static  double square(int number) {
+        return number*number ;
+    }
 
     public static void main(String[] args) {
-        // Put scanner code to get integer input here
-        // Modify the below call to assign the result of the method call to a variable.
-        square(input);
+
+        Scanner scanner = new Scanner(System.in);
+        int input= scanner.nextInt();
+        square(225);
         // Put the result System.out code here.
+        System.out.println(square(input));
     }
 }

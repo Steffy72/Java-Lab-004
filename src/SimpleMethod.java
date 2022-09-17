@@ -1,8 +1,9 @@
 public class SimpleMethod {
-    // Put your method code here
+    // Put your method cod
 
-    public static void main(String[] args) {
+    public static void square (int number) {
+        system.out.prntln (number*number);
         // This is the method call, create the square method.
-        square(25);
+        square(255);
     }
 }
